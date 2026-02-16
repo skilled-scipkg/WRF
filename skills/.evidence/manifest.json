@@ -1,0 +1,19 @@
+{
+  "core_skills": [
+    "wrf-build-and-install",
+    "wrf-test",
+    "wrf-chem",
+    "wrf-inputs-and-modeling",
+    "wrf-simulation-workflows",
+    "wrf-hydro"
+  ],
+  "evidence_dir": "skills/.evidence",
+  "files": [
+    "skills/.evidence/wrf-build-and-install.md",
+    "skills/.evidence/wrf-test.md",
+    "skills/.evidence/wrf-chem.md",
+    "skills/.evidence/wrf-inputs-and-modeling.md",
+    "skills/.evidence/wrf-simulation-workflows.md",
+    "skills/.evidence/wrf-hydro.md"
+  ]
+}

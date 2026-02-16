@@ -1,0 +1,106 @@
+{
+  "compiled_package_id": "wrf",
+  "evidence": {
+    "core_skills": [
+      "wrf-build-and-install",
+      "wrf-test",
+      "wrf-chem",
+      "wrf-inputs-and-modeling",
+      "wrf-simulation-workflows",
+      "wrf-hydro"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/wrf-build-and-install.md",
+      "skills/.evidence/wrf-test.md",
+      "skills/.evidence/wrf-chem.md",
+      "skills/.evidence/wrf-inputs-and-modeling.md",
+      "skills/.evidence/wrf-simulation-workflows.md",
+      "skills/.evidence/wrf-hydro.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "doc",
+      "hydro/Doc",
+      "chem/KPP/documentation"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Generator script had a syntax bug in f-strings and was minimally patched for deterministic execution.",
+      "Most repository docs are README.* files without common doc extensions, so explicit docs_dirs are pinned."
+    ],
+    "package_name": "WRF",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "chem",
+      "dyn_em",
+      "external",
+      "frame",
+      "hydro",
+      "inc",
+      "main",
+      "phys",
+      "share",
+      "tools",
+      "var",
+      "wrftladj"
+    ],
+    "test_dirs": [
+      "test",
+      ".ci/tests",
+      "var/test"
+    ],
+    "tutorial_dirs": [
+      "run",
+      "var/test/tutorial"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/wrf-wrf",
+  "validation": {
+    "core_skills_checked": [
+      "wrf-build-and-install",
+      "wrf-test",
+      "wrf-inputs-and-modeling",
+      "wrf-hydro",
+      "wrf-simulation-workflows",
+      "wrf-chem"
+    ],
+    "docs_only": false,
+    "errors": [],
+    "index_skills": [
+      "wrf-index"
+    ],
+    "ok": true,
+    "skills_total": 7,
+    "source_links_total": 53,
+    "topic_skills": 6,
+    "warnings": []
+  }
+}
